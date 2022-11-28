@@ -1,0 +1,148 @@
+.animals{
+
+    font-family: 'BitterBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.animals_title{
+    position: absolute;
+    left: 483px;
+    top: 1527px;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.an_tiger{
+    position: absolute;
+    width: 350px;
+    height: 218px;
+    left: 40px;
+    top: 1684px;
+    list-style-type: none;
+}
+.an_tig_text{
+    position: absolute;
+    left: 81px;
+    top: 213px;
+    line-height: 24px;
+
+}
+.an_kobra{
+    position: absolute;
+    width: 350px;
+    height: 218px;
+    left: 465px;
+    top: 1684px;    
+    list-style-type: none;
+}
+.an_kob_text{
+    position: absolute;
+    left: 56px;
+    line-height: 5px;
+}
+.an_dolphin{
+    position: absolute;
+    width: 350px;
+    height: 218px;
+    left: 890px;
+    top: 1684px;
+    list-style-type: none;
+}
+.an_dol_text{
+    position: absolute;
+    left: 89px;
+    top: 214px;
+    text-align: center;
+}
+
+.an_kazuar{
+    position: absolute;
+    width: 350px;
+    height: 240px;
+    left: 40px;
+    top: 1992px;
+    list-style-type: none;
+}
+
+.an_kaz_text{
+    position: absolute;
+    left: 133px;
+    top: 213px;
+}
+
+.an_begemot{
+    position: absolute;
+    width: 350px;
+    height: 240px;
+    left: 465px;
+    top: 1992px;
+    list-style-type: none;
+}
+
+.an_beg_text{
+    position: absolute;
+    left: 33px;
+    top: 213px;
+}
+
+.an_ulitka{
+    position: absolute;
+    width: 350px;
+    height: 240px;
+    left: 890px;
+    top: 1992px;
+    list-style-type: none;
+}
+
+.an_ul_text{
+    position: absolute;
+    left: 71px;
+    top: 213px;
+}
+
+.an_giraf{
+    position: absolute;
+    width: 360px;
+    height: 214px;
+    left: 40px;
+    top: 2322px;
+    list-style-type: none;
+}
+
+.an_gir_text{
+    position: absolute;
+    left: 63px;
+    top: 213px;
+}
+.an_sova{
+    position: absolute;
+    width: 350px;
+    height: 214px;
+    left: 465px;
+    top: 2322px;
+    list-style-type: none;
+}
+
+.an_sov_text{
+    position: absolute;
+    left: 75px;
+    top: 213px;
+}
+
+.an_zebra{
+    position: absolute;
+    width: 350px;
+    height: 214px;
+    left: 890px;
+    top: 2322px;
+    list-style-type: none;
+}
+
+.an_zeb_text{
+    position: absolute;
+    left: 99px;
+    top: 213px;
+}

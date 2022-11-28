@@ -2,11 +2,74 @@
 @import '../vendor/variables.css';
 @import '../vendor/fonts/fonts.css';
 /* Blocks */ 
+@import '../blocks/excursions/excursions.css';
 @import '../blocks/page/page.css';
+@import '../blocks/animals/animals.css';
+@import '../blocks/contacts/contacts.css';
 /* Header */ 
 @import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
 /* Main */
 @import '../blocks/main/main.css';
+@import '../blocks/main/adaptive1024.css';
+@import '../blocks/main/adaptive768.css';
+@import '../blocks/main/adaptive480.css';
+@import '../blocks/main/adaptive320.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
+@import '../blocks/support/support.css';
+
+.page{
+    background: no-repeat url("../images/header/navvse.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+} 
+@media screen and (max-width: 481px) {
+    .page{
+        background: no-repeat url("../images/header/navvse2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .page{
+        background: no-repeat url("../images/header/navvse3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
+
+@font-face {
+    font-family: "BitterBold"; 
+    src: url("../vendor/fonts/Bitter-Bold.ttf"); 
+    font-style: normal; 
+    font-weight: normal; 
+
+} 
+
+h1{
+    font-family: 'BitterBold';
+    font-style: normal;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Bitter';
+    font-style: normal;
+    color: #000000;
+}
+
+@font-face {
+    font-family: "Bitter"; 
+    src: url("../vendor/fonts/Bitter-Regular.ttf"); 
+    font-style: normal; 
+    font-weight: normal; 
+
+} 

@@ -1,0 +1,447 @@
+@media screen and (max-width: 321px) {
+
+    .nav_list_icon img{
+        position: absolute;
+        width: 39px;
+        height: 39px;
+        left: 3px;
+        top: -9px;
+        
+    }
+    .nav_list_general{
+        display: none;
+    }
+
+    .nav_list_excursions{
+        display: none;
+    }
+
+    .nav_list_animals{
+        display: none;
+    }
+    
+    .nav_list_call{
+        display: none;
+    }
+
+    .nav_list_tel_logo {
+        left: 178px;
+        top: 35px;
+    }
+    .nav_list_tel_logo img{
+        position: absolute;
+        width: 19px;
+        height: 19px;
+    }
+    
+    .nav_list_number{
+        position: absolute;
+        width: 105px;
+        height: 13px;
+        left: 205px;
+        top: 36px;
+
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+
+    .nav_invite{
+        font-family: 'Bitter';
+        font-style: normal;
+        font-weight: 400;
+        color: #FFFFFF;
+        align-items: center;
+    }
+    
+    
+    .nav_list_invite{
+        position: absolute;
+        width: 180px;
+        height: 121px;
+        left: 68px;
+        top: 97px;
+        font-size: 15px;
+        line-height: 18px;
+        display: flex;
+        
+        text-align: center;
+        align-items: center;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+    }
+
+
+    .nav_list_zoo{
+        position: absolute;
+        width: 320px;
+        height: 121px;
+        left: 92px;
+        padding-top: 52px;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        text-align: center;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+
+    }
+    .nav_list_link{
+        display: none;
+    
+    }
+
+    .exc_title{
+        position: absolute;
+        width: 253px;
+        height: 65px;
+        left: 41px;
+        top: 715px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        text-transform: uppercase;
+
+    }
+
+
+    .exc_text{
+        position: absolute;
+        width: 288px;
+        height: 232px;
+        left: 21px;
+        top: 822px;
+        font-family: 'Bitter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center; }
+
+
+    
+    .exc_more{
+        position: absolute;
+        width: 288px;
+        height: 85px;
+        left: 10px;
+        top: 1068px;
+
+        font-family: 'Bitter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+
+
+    .animals_title{
+        position: absolute;
+        left: 35px;
+        top: 1212px;
+        font-weight: 700;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    
+
+    .animals{
+        font-family: 'BitterBold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .an_tiger{
+        left: 16px;
+        top: 1317px;
+        list-style-type: none;
+    }
+    .an_tiger img{
+        position: absolute;
+        width: 288px;
+        height: 180px;}
+
+    .an_tig_text{
+        position: absolute;
+        width: 180px;
+        height: 16px;
+        left: 51px;
+        top: 179px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .an_kobra{
+        left: 16px;
+        top: 1579px;
+        list-style-type: none;
+    }
+    .an_kobra img{
+        position: absolute;
+        width: 288px;
+        height: 180px;}
+
+    .an_kob_text{
+        position: absolute;
+        width: 163px;
+        height: 34px;
+        left: 62px;
+        top: 179px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .an_dolphin{
+        left: 16px;
+        top: 1841px;
+        list-style-type: none;
+    }
+    .an_dolphin img{ 
+        position: absolute;
+        width: 288px;
+        height: 180px;}
+
+    .an_dol_text{
+        position: absolute;
+        width: 149px;
+        height: 35px;
+        left: 69px;
+        top: 179px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .an_kazuar{
+        left: 16px;
+        top: 2103px;
+        list-style-type: none;
+    }
+    .an_kazuar img{
+        position: absolute;
+        width: 288px;
+        height: 180px;}
+
+    .an_kaz_text{
+        position: absolute;
+        width: 59px;
+        height: 19px;
+        left: 113px;
+        top: 179px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .an_begemot{
+        left: 16px;
+        top: 2365px;
+        list-style-type: none;
+    }
+    .an_begemot img{
+        position: absolute;
+        width: 288px;
+        height: 180px;}
+    .an_beg_text{
+        position: absolute;
+        width: 149px;
+        height: 38px;
+        left: 69px;
+        top: 179px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .an_ulitka{
+        left: 16px;
+        top: 2627px;
+        list-style-type: none;
+    }
+    .an_ulitka img{
+        position: absolute;
+        width: 288px;
+        height: 180px;}
+    .an_ul_text{
+        position: absolute;
+        width: 93px;
+        height: 38px;
+        left: 97px;
+        top: 179px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .an_giraf{
+        left: 16px;
+        top: 2889px;
+        list-style-type: none;
+    }
+    .an_giraf img{
+        position: absolute;
+        width: 288px;
+        height: 180px;}
+
+    .an_gir_text{
+        position: absolute;
+        width: 148px;
+        height: 36px;
+        left: 71px;
+        top: 179px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .an_sova{
+        left: 16px;
+        top: 3151px;
+        list-style-type: none;
+    }
+    .an_sova img{
+        position: absolute;
+        width: 288px;
+        height: 180px;}
+
+    .an_sov_text{
+        position: absolute;
+        width: 120px;
+        height: 37px;
+        left: 83px;
+        top: 179px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .an_zebra{
+        left: 16px;
+        top: 3413px;
+        list-style-type: none;
+    }
+    .an_zebra img{
+        position: absolute;
+        width: 288px;
+        height: 180px;}
+
+    .an_zeb_text{
+        position: absolute;
+        width: 100px;
+        height: 34px;
+        left: 93px;
+        top: 179px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .cont_title{
+        position: absolute;
+        left: 48px;
+        top: 3686px;
+        font-size: 40px;
+        line-height: 48px;
+        width: 225px;
+        text-align: center;
+    }
+
+
+    .cont_question{
+        position: absolute;
+        left: 16px;
+        top: 3840px;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+
+    .con_mail{
+        position: absolute;
+        width: 300px;
+        height: 70px;
+        left: 11px;
+        top: 3888px;
+        
+    }
+    .con_number{
+        position: absolute;
+        width: 300px;
+        height: 70px;
+        left: 11px;
+        top: 3978px;
+    }
+    
+    .con_name{
+        position: absolute;
+        width: 300px;
+        height: 70px;
+        left: 11px;
+        top: 4068px;
+    }
+    .con_question{
+        position: absolute;
+        width: 300px;
+        height: 195px;
+        left: 11px;
+        top: 4170px;
+        
+    }
+    .con_button{
+        left: 6px;
+        top: 4404px;
+    }
+    .Container{
+        position: absolute;
+        width: 800px;
+        height: 600px;
+        left: -239px;
+        top: 4568px;
+    }
+    textarea{
+        border-radius:0px;
+    }
+    .button{
+        position: absolute;
+        width: 308px;
+        height: 71px;
+        padding: 15px 117px;
+        gap: 11px;
+        font-family: 'Bitter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .fot_date{
+        position: absolute;
+        width: 54px;
+        margin-left: -24px;
+        margin-top: 1616px;
+        font-family: 'Bitter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .fot_sign{
+        position: absolute;
+        margin-top: 1616px;
+        line-height: 18px;
+        margin-left: -944px;
+    }
+    #text{
+        position: absolute;
+        width: 226px;
+        height: 86px;
+        left: 287px;
+        top: 233px;
+
+        font-family: 'Bitter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+}

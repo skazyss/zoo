@@ -1,0 +1,238 @@
+.cont_title{
+    position: absolute;
+    left: 420px;
+    top: 2737px;
+    font-size: 50px;
+}
+
+.cont_question{
+    position: absolute;
+    left: 40px;
+    top: 2940px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.con_mail{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    left: 40px;
+    top: 2988px;
+}
+
+.con_number{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    left: 40px;
+    top: 3078px;
+}
+
+.con_name{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    left: 40px;
+    top: 3168px;
+}
+
+.con_question{
+    position: absolute;
+    width: 900px;
+    height: 191px;
+    left: 40px;
+    top: 3278px;
+}
+
+textarea{
+    width: 280px;
+    height: 170px;
+    border-radius:12px;
+    position: absolute;
+    top: 0px;
+    padding: 10px 8px 10px 8px;
+    border: 2px solid #000000;
+    outline:none;
+    resize: none;
+}
+
+textarea::placeholder {
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 8px;
+    top: 10px;
+    font-family: 'BitterBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+}
+
+.email{
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 0px;
+    top: 32px;
+    border: #FFFFFF;
+    border-bottom: 2px solid #000000;
+    padding-top: 15px;
+    outline:none;
+}
+
+.email::placeholder{
+    position: absolute;
+    width: 47px;
+    height: 19px;
+    left: 0px;
+    top: 19px;
+    font-family: 'BitterBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+    outline:none;
+}
+
+.name{
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 0px;
+    top: 32px;
+    border: #FFFFFF;
+    border-bottom: 2px solid #000000;
+    padding-top: 15px;
+    outline:none;
+}
+
+
+.name::placeholder{
+    position: absolute;
+    width: 33px;
+    height: 19px;
+    left: 0px;
+    top: 19px;
+    font-family: 'BitterBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+    outline:none;
+}
+
+.number{
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 0px;
+    top: 32px;
+    border: #FFFFFF;
+    border-bottom: 2px solid #000000;
+    padding-top: 15px;
+    outline:none;
+}
+
+.number::placeholder{
+    position: absolute;
+    width: 51px;
+    height: 19px;
+    left: 0px;
+    top: 19px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+    outline:none;
+}
+
+.con_button{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    left: 40px;
+    top: 3488px;
+}
+
+.button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 75px;
+    gap: 10px;
+    position: absolute;
+    width: 300px;
+    height: 71px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    position: absolute;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.Container{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 440px;
+    top: 2938px;
+}
+
+.Container { width: 70%; position: relative; }
+  .Google_map{
+      position: absolute;
+      top: 0; left: 0;
+      opacity: 0;
+      transition: opacity .25s ease-in-out;
+  }
+  .Container img {
+      opacity: 1; 
+      width: 800px;
+      height: 600px;
+      transition: opacity .25s ease-in-out;
+  }
+  .Container:hover > .Google_map { opacity: 1;}
+  .Container:hover img { opacity: 0; }
+
+  
+#image {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  #text {
+    position: absolute;
+    width: 526px;
+    height: 60px;
+    left: 137px;
+    top: 219px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
