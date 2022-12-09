@@ -1,75 +1,68 @@
 @import '../vendor/normalize.css';
 @import '../vendor/variables.css';
-@import '../vendor/fonts/fonts.css';
-/* Blocks */ 
 @import '../blocks/excursions/excursions.css';
 @import '../blocks/page/page.css';
 @import '../blocks/animals/animals.css';
 @import '../blocks/contacts/contacts.css';
-/* Header */ 
-@import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
-/* Main */
 @import '../blocks/main/main.css';
-@import '../blocks/main/adaptive1024.css';
-@import '../blocks/main/adaptive768.css';
-@import '../blocks/main/adaptive480.css';
-@import '../blocks/main/adaptive320.css';
-/* Footer */
 @import '../blocks/footer/footer.css';
 @import '../blocks/support/support.css';
+@import '../blocks/header/header.css';
+@import '../blocks/navigation/__menu/navigation__menu.css';
+@import '../vendor/fonts/fonts.css';
 
-.page{
-    background: no-repeat url("../images/header/navvse.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: cover;
-    background-attachment: scroll;
-} 
-@media screen and (max-width: 481px) {
-    .page{
-        background: no-repeat url("../images/header/navvse2.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: scroll;
-    }
-}
+@import '../blocks/navigation/navigation.css';
+@import '../blocks/header/navigation/__invite/header__invite.css';
+@import '../blocks/header/navigation/__invite/nav__invite/nav__invite.css';
+@import '../blocks/header/navigation/__menu/header__menu/header__menu.css';
+@import '../blocks/header/navigation/_sup/header__sup.css';
+@import '../blocks/logo/logo.css';
+@import '../blocks/header/__check/header__check.css';
+@import '../blocks/header/_menu/header__menu.css';
 
-@media screen and (max-width: 321px) {
-    .page{
-        background: no-repeat url("../images/header/navvse3.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: scroll;
-    }
-}
+@import '../blocks/nav-bar/nav-bar.css';
+@import '../blocks/nav-bar/__check/nav-bar__check.css';
+@import '../blocks/nav-bar/__link/nav-bar__link.css';
+@import '../blocks/nav-bar/__list/nav-bar__list.css';
+@import '../blocks/nav-bar/__logo/nav-bar__logo.css';
+@import '../blocks/nav-bar/__tel_logo/nav-bar__tel_logo.css';
+@import '../blocks/nav-bar/__number/nav-bar__number.css';
+@import '../blocks/nav-bar/__sup/nav-bar__sup.css';
 
-@font-face {
-    font-family: "BitterBold"; 
-    src: url("../vendor/fonts/Bitter-Bold.ttf"); 
-    font-style: normal; 
-    font-weight: normal; 
+@import '../blocks/info/info.css';
+@import '../blocks/info/__invite/info__invite.css';
+@import '../blocks/info/__link/info__link.css';
+@import '../blocks/info/__list_invite/info__list_invite.css';
+@import '../blocks/info/__list_zoo/info__list_zoo.css';
+@import '../blocks/info/__lists__invite/info__lists__invite.css';
+@import '../blocks/info/__lists__zoo/info__lists__zoo.css';
 
-} 
+@import '../blocks/main/main.css';
+@import '../blocks/main/__exc_more/main__exc_more.css';
+@import '../blocks/main/__exc_text/main__exc_text.css';
+@import '../blocks/main/__exc_title/main__exc_title.css';
+@import '../blocks/main/__excursions/main__excursions.css';
+@import '../blocks/main/__animals/main__animals.css';
+@import '../blocks/main/__animals_title/main__animals_title.css';
 
-h1{
-    font-family: 'BitterBold';
-    font-style: normal;
-    color: #000000;
-    align-items: center;
-    text-align: center;
-}
+@import '../blocks/animals/animals.css';
+@import '../blocks/animals/__text/animals__text.css';
+@import '../blocks/animals/__img/animals__img.css';
 
-h2{
-    font-family: 'Bitter';
-    font-style: normal;
-    color: #000000;
-}
 
-@font-face {
-    font-family: "Bitter"; 
-    src: url("../vendor/fonts/Bitter-Regular.ttf"); 
-    font-style: normal; 
-    font-weight: normal; 
+@import '../blocks/contacts/contacts.css';
+@import '../blocks/contacts/__title/cont__title.css';
+@import '../blocks/contacts/__questions/__questions.css';
+@import '../blocks/contacts/__question/cont__question.css';
+@import '../blocks/contacts/__number/con__number.css';
+@import '../blocks/contacts/__name/con__name.css';
+@import '../blocks/contacts/__mail/con__mail.css';
+@import '../blocks/contacts/__button/con__button.css';
+@import '../blocks/contacts/__container/con_container.css';
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__date/fot__date.css';
+@import '../blocks/footer/__sign/fot__sign.css';
 
-} 
+
+

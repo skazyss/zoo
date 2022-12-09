@@ -1,0 +1,7 @@
+.nav-bar__list{
+    padding-top: 2%;
+    margin-left: -1%;
+    display: flex;
+    width: 50%;
+    list-style-type: none;
+}

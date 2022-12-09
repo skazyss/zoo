@@ -1,0 +1,13 @@
+.nav-bar__number{
+    vertical-align: top;
+    list-style-type: none;
+    font-family: 'BitterBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    margin-left: 7%;
+
+}

@@ -1,0 +1,27 @@
+.con__button{
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 300px;
+    height: 70px;
+}
+
+.button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 75px;
+    gap: 10px;
+    width: 300px;
+    height: 71px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    position: absolute;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}

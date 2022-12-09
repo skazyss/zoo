@@ -1,0 +1,109 @@
+.nav_list{
+    list-style-type: none;
+    font-family: 'BitterBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+
+a { color: rgb(0, 0, 0); text-decoration: none; }
+
+.nav_list_icon
+{
+    position: absolute;
+    left: 26px;
+    top: 34px;
+
+}
+.nav_list_general {
+    position: absolute;
+    left: 108px;
+    top: 58px;
+    
+    
+}
+.nav_list_excursions{
+    position: absolute;
+    left: 215px;
+    top: 58px;
+
+
+}
+
+.nav_list_animals{
+    position: absolute;
+    left: 348px;
+    top: 58px;
+}
+
+.nav_list_call{
+    position: absolute;
+    left: 477px;
+    top: 58px;
+}
+
+.nav_list_tel_logo{
+    position: absolute;
+    left: 1068px;
+    top: 55px;
+}
+
+.nav_list_number{
+    position: absolute;
+    left: 1107px;
+    top: 58px;
+    color: #FFFFFF;
+    font-family: 'BitterBold';
+    font-style: normal;
+}
+
+.nav_invite{
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+
+.nav_list_invite{
+    position: absolute;
+    width: 417px;
+    height: 202px;
+    left: 435px;
+    top: 237px;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.nav_list_zoo{
+    position: absolute;
+    width: 417px;
+    height: 202px;
+    left: 459px;
+    top: 322px;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.nav_list_link{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 615px;
+    top: 520px;
+    list-style-type: none;
+}

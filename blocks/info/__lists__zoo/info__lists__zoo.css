@@ -1,0 +1,20 @@
+.info__lists__zoo{
+    position: absolute;
+    width: 385px;
+    height: 162px;
+    left: 34%;
+    right: 34%;
+    margin-left:auto;
+    margin-right:auto;
+    top: 30%;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}

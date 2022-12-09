@@ -1,0 +1,31 @@
+.con__mail{
+    width: 300px;
+    height: 70px;
+}
+
+.email{
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+    margin-left: 13%;
+    margin-top: 6%;
+    border: #FFFFFF;
+    border-bottom: 2px solid #000000;
+    padding-top: 15px;
+    outline:none;
+}
+
+.email::placeholder{
+    position: absolute;
+    width: 47px;
+    height: 19px;
+    left: 0px;
+    top: 19px;
+    font-family: 'BitterBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+    outline:none;
+}

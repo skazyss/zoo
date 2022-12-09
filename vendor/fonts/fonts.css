@@ -1,8 +1,15 @@
 @font-face {
-  font-family: '';  /* Название шрифта */ 
-  src: url('./') format('woff2'), /* Путь к расположению шрифта */ 
-       url('./') format('woff');
-  font-weight: 400; /* Толщина шрифта */ 
-  font-style: normal; /* Стиль шрифта */ 
-  font-display: swap; /* Отображение шрифта */ 
-}
+  font-family: "BitterBold"; 
+  src: url("./Bitter-Bold.ttf") format('truetype'); 
+  font-style: normal; 
+  font-weight: normal; 
+
+} 
+
+@font-face {
+  font-family: "Bitter"; 
+  src: url("./Bitter-Regular.ttf") format('truetype'); 
+  font-style: normal; 
+  font-weight: normal; 
+
+} 

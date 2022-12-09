@@ -1,0 +1,43 @@
+.con__container{
+  margin-top: -47%;
+  margin-left: 34%;
+
+}
+
+.con__container { width: 800px; position: absolute; }
+  .Google_map{
+      top: 0; left: 0;
+      opacity: 0;
+      transition: opacity .25s ease-in-out;
+  }
+  .con__container img {
+      opacity: 1; 
+      width: 800px;
+      height: 600px;
+      transition: opacity .25s ease-in-out;
+  }
+  .con__container:hover > .Google_map { opacity: 1;}
+  .con__container:hover img { opacity: 0; }
+
+  
+#image {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  #text {
+    position: absolute;
+    width: 526px;
+    height: 60px;
+    left: 137px;
+    top: 219px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
